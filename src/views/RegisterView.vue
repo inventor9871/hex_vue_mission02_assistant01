@@ -30,6 +30,7 @@
 import { register } from '@/utils/api';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
+
 const email = ref('')
 const nickname = ref('')
 const password = ref('')
