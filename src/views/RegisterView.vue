@@ -30,9 +30,9 @@
 import { register } from '@/utils/api';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
-const email = ref('asd@asd.com')
-const nickname = ref('asd')
-const password = ref('asdasd')
+const email = ref('')
+const nickname = ref('')
+const password = ref('')
 const confirmPassword = ref('')
 const router = useRouter()
 

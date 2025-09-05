@@ -32,8 +32,8 @@ const router = useRouter()
 
 
 // 表單資料
-const email = ref('asd@asd.com')
-const password = ref('asdasd')
+const email = ref('')
+const password = ref('')
 
 const handleLogin = async()=>{
   try {
